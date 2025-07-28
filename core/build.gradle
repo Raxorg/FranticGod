@@ -1,0 +1,9 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+  api "space.earlygrey:shapedrawer:$shapeDrawerVersion"
+
+  implementation "com.github.Ret-Mode.TexelBatch:texelbatch:a3ad8405fa"
+}
