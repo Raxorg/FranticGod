@@ -5,6 +5,7 @@
   <inherits name="com.badlogic.gdx.backends.gdx_backends_gwt" />
   <inherits name="com.epicness.FranticGodGame" />
   <inherits name="space.earlygrey.shapedrawer" />
+  <inherits name="com.retmode.texel" />
   <entry-point class="com.epicness.franticgod.gwt.GwtLauncher" />
   <set-configuration-property name="gdx.assetpath" value="../assets" />
   <set-configuration-property name="xsiframe.failIfScriptTag" value="FALSE"/>

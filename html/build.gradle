@@ -38,10 +38,9 @@ dependencies {
   implementation project(':core')
 
   implementation "com.github.Ret-Mode.TexelBatch:texelbatch:a3ad8405fa"
-  implementation "com.github.Ret-Mode.TexelBatch:texelbatch:a3ad8405fa"
+  implementation "com.github.Ret-Mode.TexelBatch:texelbatch:a3ad8405fa:sources"
   implementation "com.github.Ret-Mode.TexelBatch:texelbatchgwt:a3ad8405fa"
-  implementation "com.github.Ret-Mode.TexelBatch:texelbatchgwt:a3ad8405fa"
-
+  implementation "com.github.Ret-Mode.TexelBatch:texelbatchgwt:a3ad8405fa:sources"
 }
 
 import org.akhikhl.gretty.AppBeforeIntegrationTestTask
